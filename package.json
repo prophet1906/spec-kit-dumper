@@ -1,0 +1,39 @@
+{
+  "name": "spec-kit-dumper",
+  "version": "1.0.0",
+  "description": "A CLI tool to set up Kilocode or Clinerules for Spec-Driven Development workflows",
+  "main": "index.js",
+  "bin": {
+    "spec-kit": "./bin/spec-kit.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/spec-kit.js"
+  },
+  "keywords": [
+    "cli",
+    "kilocode",
+    "clinerules",
+    "spec-driven-development",
+    "development-workflow"
+  ],
+  "author": "prophet1906",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prophet1906/spec-kit-dumper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prophet1906/spec-kit-dumper/issues"
+  },
+  "homepage": "https://github.com/prophet1906/spec-kit-dumper#readme"
+}
